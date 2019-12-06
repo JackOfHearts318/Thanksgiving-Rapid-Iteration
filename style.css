@@ -1,0 +1,52 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	display: block;
+}
+
+.corner1 {
+	height: 50%;
+	width: 50%;
+	display: flex;
+	float: left;
+}
+
+.corner2 {
+	height: 50%;
+	width: 50%;
+	display: flex;
+	float: right;
+}
+
+.corner3 {
+	height: 50%;
+	width: 50%;
+	display: flex;
+	float: left;
+}
+
+.corner4 {
+	height: 50%;
+	width: 50%;
+	display: flex;
+	float: right;
+}
+
+.expandimage {
+	width: 100%;
+}
+
+.expandimage2 {
+	width: 100%;
+	display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+	.expandimage {
+		display: none;
+	}
+	.expandimage2 {
+		display: flex;
+	}
+}
